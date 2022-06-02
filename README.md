@@ -1,2 +1,2 @@
-# alliess2
-Allies neww
+# WOY
+- YAKALAU DH JOIN JAN DECRYPT JUGA ANZENGGGG
