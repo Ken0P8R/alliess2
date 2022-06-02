@@ -8,6 +8,7 @@ else
 gg.alert("Invalid Password") 
 print("Pass Error, Please Check Allied Grup For New Information.") 
 os.exit() 
+end
 
 gg.setVisible(true)
 gg.alert("⚠️ WARNING ⚠️ \n \nYou Login As Allies Account!")
