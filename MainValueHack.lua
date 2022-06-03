@@ -1,7 +1,7 @@
-r = "Bindo73"
+B = "bindo73"
 R = gg.prompt({"Please Enter Password: "}) 
 gg.toast("Checking Password.. ") 
-if R[1] == r then
+if R[1] == B then
 gg.sleep("200") 
 
 else
