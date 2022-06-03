@@ -1,7 +1,7 @@
-B = "bindo73"
+r = "AlliesJxHpa"
 R = gg.prompt({"Please Enter Password: "}) 
 gg.toast("Checking Password.. ") 
-if R[1] == B then
+if R[1] == r then
 gg.sleep("200") 
 
 else
@@ -27,7 +27,7 @@ menu = gg.choice({
 '➜ ❲Low Range❳ Safe',
 '➜ ❲Speed Hack Low❳ Safe',
 '➜ ❲Speed Hack Brutal❳ Risk',
-'➜ ❲About Owner Script❳', 
+'➜ ❲Speed Hack Custom❳ Test', 
 ------ SCRIPT BY SaikyoMaou ------
 '══✧══|| EXIT ||══✧══'},
 nil,'══════════✧══════════\n⟮One Piece Bounty Rush Hack V.8⟯\n══════════✧══════════  \n   ➥ Script by Kenshin OPBR')
@@ -54,15 +54,18 @@ end
 
 function about() 
 local ab = gg.choice({
-'About This Script\nThis Script Made By Kenshin OPBR.\n\nYoutube: Kenshin Hack OPBR\nTelegram: @SaikyoMaou\nInstagram: @just.kenntsu\n\n#SusuMamahYelenBadag😱', 
+'🔵Custom Speed Hack🔴',
 }, nil, 'About Owner Script') 
 if ab == 1 then abt() end
 end
 
 function abt() 
-local awok = gg.alert('Do You Sure Back To Main Menu?', 'YES', 'YES TOO')
-if awok == 1 then Main() end
-if awok == 2 then Main() end
+gg.toast("JANGAN BERLEBIHAN !!! ") 
+input = gg.prompt({"Enter Custom Speed Hack Value: (Backup: 1)"},
+{[1] = "1"},
+{[1] = "Number"}) 
+gg.setSpeed(input[1])
+gg.toast("Done Set Speed To: ", input[1])
 end
 
 function SBackup() 
