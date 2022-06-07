@@ -1,4 +1,4 @@
-r = "AlliesJxHpa"
+r = "26058"
 R = gg.prompt({"Please Enter Password: "}) 
 gg.toast("Checking Password.. ") 
 if R[1] == r then
@@ -15,6 +15,7 @@ gg.alert("⚠️ WARNING ⚠️ \n \nYou Login As Allies Account!")
 gg.toast("Subscribe Kenshin OPBR") 
 gg.toast("GameGuardian Sleecting Pacakge.. ") 
 gg.sleep("700")
+gg.setRanges(gg.REGION_ANONYMOUS) 
 gg.toast("Donee")
 local targetName = [=====[Bounty]=====]
 local targetPkg = 'com.bandainamcoent.opbrww'
